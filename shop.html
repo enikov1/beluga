@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Магазин</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="./css/jquery.scrollbar.css">
+	<link rel="stylesheet" href="./css/app.min.css">
+</head>
+
+<body>
+	<!-- <div class="container"> -->
+		<div class="wrap_100">
+			<div class="page_header">
+				<header class="header">
+					<a class="header_logo" href="/"></a>
+					<div class="header_right">
+						<a class="header_right-link" href="/shop.html">Магазин</a>
+						<a class="header_right-link link_m" href="/auth.html">Аккаунт</a>
+						<a class="header_right-link link_m" href="/cart.html">
+							Корзина
+							<span class="icon cart_bg"><svg class="svg svg-caviar-checkbox"><use xlink:href="./img/bg.svg#svg-caviar-checkbox"></use></svg></span>
+							1
+						</a>
+						<a class="header_right-cart e_mobile" href="/cart.html">
+							<div class="icon">
+								<svg class="svg svg-landing-net">
+									<use xlink:href="./img/cart_1.svg#svg-landing-net"></use>
+								</svg>
+							</div>
+						</a>
+						<div class="header_burger">
+							<div class="header_burger__top burger_line"></div>
+							<div class="header_burger__bottom burger_line"></div>
+						</div>
+					</div>
+					<div class="menu_small menu_small-hide">
+						<div class="menu_small-wrap">
+							<div class="container">
+								<div class="menu_small-content">
+									<div class="menu_small-links">
+										<a class="small_link" href="#">главная</a>
+										<a class="small_link" href="#">о ферме</a>
+										<a class="small_link" href="#">производство</a>
+										<a class="small_link" href="#">история</a>
+										<a class="small_link" href="#">фонд</a>
+										<a class="small_link" href="#">магазин</a>
+										<a class="small_link" href="#">события</a>
+										<a class="small_link" href="#">конткты</a>
+										<div class="menu_langs">
+											<a class="menu_lang active" href="#">ru</a>
+											<a class="menu_lang" href="#">en</a>
+											<div class="menu_fish fish_mobile" style="background-image: url(./img/fish_side.png);"></div>
+										</div>
+										<div class="menu_socials">
+											<a class="menu_social" href="#">
+												<div class="icon">
+													<svg class="svg svg-inst"><use xlink:href="./img/instagram.svg#svg-inst"></use></svg>
+												</div>
+											</a>
+											<a class="menu_social" href="#">
+												<div class="icon">
+													<svg class="svg svg-fb"><use xlink:href="./img/facebook.svg#svg-fb"></use></svg>
+												</div>
+											</a>
+											<a class="menu_social" href="#">
+												<div class="icon">
+													<svg class="svg svg-vk"><use xlink:href="./img/vk.svg#svg-vk"></use></svg>
+												</div>
+											</a>
+										</div>
+									</div>
+									<div class="menu_info">
+										<div class="menu_ext">
+											<div class="menu_quote">
+												<img src="./img/qot.png" alt="">
+											</div>
+											Наша продукция лимитирована самой природой
+										</div>
+										<div class="menu_contacts">
+											<a class="menu_contact" href="#" target="_blank">
+												<span class="icon menu_icon">
+													<svg class="svg svg-caviar-a"><use xlink:href="./img/bg.svg#svg-caviar-a"></use></svg>
+												</span>
+												<span class="page_text">129085 г. Москва Проспект Мира, д. 101В, стр. 1</span>
+											</a>
+											<a class="menu_contact" href="#">
+												<span class="icon menu_icon">
+													<svg class="svg svg-caviar-t"><use xlink:href="./img/bg.svg#svg-caviar-t"></use></svg>
+												</span>
+												<span class="page_text">+7 499 229 83 43</span>
+											</a>
+											<a class="menu_contact" href="#" target="_blank">
+												<span class="icon menu_icon">
+													<svg class="svg svg-caviar-e"><use xlink:href="./img/bg.svg#svg-caviar-e"></use></svg>
+												</span>
+												<span class="page_text">info@caviar.ru</span>
+											</a>
+										</div>
+										<div class="menu_subtitle page_text tb">
+											ПРОДАЖИ ЗАРУБЕЖОМ
+										</div>
+										<a class="menu_subtitle page_text" href="" target="_blank">
+											volzhenka.com
+										</a>
+										<div class="menu_fish" style="background-image: url(./img/fish_side.png);"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+			</div>
+		
+			<div class="wrap_shop">
+				<div class="wrap_shop-left active"></div>
+				<div class="mobile_menu">
+					<div class="mobile_menu-header container">
+						<div class="menu_header-title">Каталог</div>
+						<button class="menu_header-button">
+							<div class="header_button-arrow">
+								<div class="arrow_line line-left"></div>
+								<div class="arrow_line line-right"></div>
+							</div>
+						</button>
+					</div>
+					<div class="mobile_menu-content container">
+						<div class="mobile_menu-item">
+							<a class="menu_item-cat" href="#">Икра</a>
+							<div class="menu_item-subcat">
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+							</div>
+						</div>
+						<div class="mobile_menu-item">
+							<a class="menu_item-cat" href="#">Икра</a>
+							<div class="menu_item-subcat">
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+							</div>
+						</div>
+						<div class="mobile_menu-item">
+							<a class="menu_item-cat" href="#">Икра</a>
+							<div class="menu_item-subcat">
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+								<a class="subcat_link" href="#">Русский осётр</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="shop_container container">
+					<div class="scrollbar-inner">
+						<aside class="shop_aside active">
+							<div class="shop_header m-shop">
+								<div class="shop_header-logo active m-aside"></div>
+							</div>
+							<div class="shop_items">
+								<div class="shop_item">
+									<a class="shop_cat" href="#">Икра</a>
+									<div class="shop_sub-cat">
+										<a class="subcat_link" href="#">Русский осётр</a>
+										<a class="subcat_link" href="#">Русский осётр</a>
+										<a class="subcat_link" href="#">Русский осётр</a>
+										<a class="subcat_link" href="#">Русский осётр</a>
+										<a class="subcat_link" href="#">Русский осётр</a>
+									</div>
+								</div>
+								<div class="shop_item">
+									<a class="shop_cat" href="#">Икра</a>
+									<div class="shop_sub-cat">
+										<a class="subcat_link" href="#">Русский осётр</a>
+										<a class="subcat_link" href="#">Русский осётр</a>
+										<a class="subcat_link" href="#">Русский осётр</a>
+										<a class="subcat_link" href="#">Русский осётр</a>
+										<a class="subcat_link" href="#">Русский осётр</a>
+									</div>
+								</div>
+								<div class="shop_item">
+									<a class="shop_cat" href="#">Икра</a>
+									<div class="shop_sub-cat">
+										<a class="subcat_link" href="#">Русский осётр</a>
+										<a class="subcat_link" href="#">Русский осётр</a>
+										<a class="subcat_link" href="#">Русский осётр</a>
+										<a class="subcat_link" href="#">Русский осётр</a>
+										<a class="subcat_link" href="#">Русский осётр</a>
+									</div>
+								</div>
+							</div>
+						</aside>
+					</div>
+					<div class="shop_content">
+						<div class="shop_sort">
+							<div class="shop_sort-item active">все</div>
+							<div class="shop_sort-sep">/</div>
+							<div class="shop_sort-item">бестселлеры</div>
+							<div class="shop_sort-sep">/</div>
+							<div class="shop_sort-item">овулированная икра</div>
+							<div class="shop_sort-sep">/</div>
+							<div class="shop_sort-item">традиционная икра</div>
+						</div>
+						<div class="shop_catalog">
+							<div class="shop_card m_card">
+								<div class="card_image">
+									<div class="card_img" style="background-image: url(./img/shop/img_1.jpg);"></div>
+								</div>
+								<div class="card_info">
+									<a class="card_info-title" href="#">Икра Русского Осетра (традиционная)</a>
+									<div class="card_info-descr">
+										Классика икорных традиций – это икра русского осетра. Разные по цветовой палитре (от чёрных и тёмно-серых до золотистых тонов), осетровые икринки имеют волшебный, такой хорошо знакомый и родной вкус. И благодаря «шелковистой», нежнейшей текстуре буквально таят во рту.
+									</div>
+									<div class="card_info-sublink">
+										<a href="#">Узнать больше</a>
+										<div class="arrow__block">
+											<div class="arrow__line line-right"></div>
+											<div class="arrow__line line-left"></div>
+										</div>
+									</div>
+									<div class="card_info-price">от 4 250 ₽</div>
+								</div>
+							</div>
+							<div class="shop_card m_card">
+								<div class="card_image">
+									<div class="card_img" style="background-image: url(./img/shop/img_1.jpg);"></div>
+								</div>
+								<div class="card_info">
+									<a class="card_info-title" href="#">Икра Русского Осетра (традиционная)</a>
+									<div class="card_info-descr">
+										Классика икорных традиций – это икра русского осетра. Разные по цветовой палитре (от чёрных и тёмно-серых до золотистых тонов), осетровые икринки имеют волшебный, такой хорошо знакомый и родной вкус. И благодаря «шелковистой», нежнейшей текстуре буквально таят во рту.
+									</div>
+									<div class="card_info-sublink">
+										<a href="#">Узнать больше</a>
+										<div class="arrow__block">
+											<div class="arrow__line line-right"></div>
+											<div class="arrow__line line-left"></div>
+										</div>
+									</div>
+									<div class="card_info-price">от 4 250 ₽</div>
+								</div>
+							</div>
+							<div class="shop_card m_card">
+								<div class="card_image">
+									<div class="card_img" style="background-image: url(./img/shop/img_1.jpg);"></div>
+								</div>
+								<div class="card_info">
+									<a class="card_info-title" href="#">Икра Русского Осетра (традиционная)</a>
+									<div class="card_info-descr">
+										Классика икорных традиций – это икра русского осетра. Разные по цветовой палитре (от чёрных и тёмно-серых до золотистых тонов), осетровые икринки имеют волшебный, такой хорошо знакомый и родной вкус. И благодаря «шелковистой», нежнейшей текстуре буквально таят во рту.
+									</div>
+									<div class="card_info-sublink">
+										<a href="#">Узнать больше</a>
+										<div class="arrow__block">
+											<div class="arrow__line line-right"></div>
+											<div class="arrow__line line-left"></div>
+										</div>
+									</div>
+									<div class="card_info-price">от 4 250 ₽</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		
+		
+	<!-- </div> -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="./js/app.min.js"></script>
+</body>
+
+</html>
